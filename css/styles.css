@@ -76,12 +76,11 @@ h1 {
 }
 
 .profile-img {
+    -webkit-appearance: none;
     width: 5rem;
     margin: 1rem 0;
     outline: 3px solid var(--White);
     border-radius: 3.75rem;
-    overflow: hidden;
-    
 }
 
 .period {
