@@ -327,19 +327,6 @@ input[type="radio"]:checked+.radio {
     .previous-state {
         font-size: 14px;
     }
-    
-    .ellipsis:active {
-        opacity: var(--Full-Opacity);
-        filter: sepia(1);
-        cursor: help;
-    }
-
-    .data-card:active {
-        background-color: var(--Blue);
-        cursor: pointer;
-        transition: ease-in-out var(--Transition);
-        filter: drop-shadow(2px 4px 6px var(--Very-dark-blue));
-    }
 }
 
 @media (max-width: 550px) {
