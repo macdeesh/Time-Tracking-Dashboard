@@ -80,12 +80,7 @@ h1 {
     margin: 1rem 0;
     outline: 3px solid var(--White);
     border-radius: 3.75rem;
-    -webkit-border-radius: 3.75rem;
-    -moz-border-radius: 3.75rem;
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0)
+    overflow: hidden;
     
 }
 
