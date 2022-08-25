@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <title>Time tracking dashboard</title>
+
+</head>
+
+<body>
+  <main>
+
+    <div class="main-card">
+
+      <div class="heading">
+
+        <img class="profile-img" src="images/image-jeremy.png" alt="Jeremy Robson">
+
+        <div>
+          <p class="heading-title">Report for</p>
+          <h1>Jeremy
+            Robson</h1>
+        </div>
+      </div>
+
+      <div class="period">
+        <input id="daily" type="radio" class="radio-check" name="period" checked>
+        <label class="radio" for="daily">Daily</label>
+
+        <input id="weekly" type="radio" class="radio-check" name="period">
+        <label class="radio" for="weekly">Weekly</label>
+
+        <input id="monthly" type="radio" class="radio-check" name="period">
+        <label class="radio" for="monthly">Monthly</label>
+      </div>
+
+    </div>
+
+    <div class="grid-cards">
+
+      <div class="single-card work-card">
+        <div class="decoration work-deco"></div>
+        <div class="data-card">
+          <p class="card-title"><span class="title">Work</span><span class="ellipsis"></span><span class="span-test">Inactive</span></p>
+          <div class="data-section">
+            <h2 class="card-hours">hrs</h2>
+            <p class="previous-state">Previous</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="single-card play-card">
+        <div class="decoration play-deco"></div>
+        <div class="data-card">
+          <p class="card-title"><span class="title">Play</span><span class="ellipsis"></span><span class="span-test">Inactive</span></p>
+          <div class="data-section">
+            <h2 class="card-hours">hrs</h2>
+            <p class="previous-state">Previous</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="single-card study-card">
+        <div class="decoration study-deco"></div>
+        <div class="data-card">
+          <p class="card-title"><span class="title">Study</span><span class="ellipsis"></span><span class="span-test">Inactive</span></p>
+          <div class="data-section">
+            <h2 class="card-hours">hrs</h2>
+            <p class="previous-state">Previous</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="single-card exercise-card">
+        <div class="decoration exercise-deco"></div>
+        <div class="data-card">
+          <p class="card-title"><span class="title">Exercise</span><span class="ellipsis"></span><span class="span-test">Inactive</span></p>
+          <div class="data-section">
+            <h2 class="card-hours">hrs</h2>
+            <p class="previous-state">Previous</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="single-card social-card">
+        <div class="decoration social-deco"></div>
+        <div class="data-card">
+          <p class="card-title"><span class="title">Social</span><span class="ellipsis"></span><span class="span-test">Inactive</span></p>
+          <div class="data-section">
+            <h2 class="card-hours">hrs</h2>
+            <p class="previous-state">Previous</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="single-card care-card">
+        <div class="decoration care-deco"></div>
+        <div class="data-card">
+          <p class="card-title"><span class="title">Self Care</span><span class="ellipsis"></span><span class="span-test">Inactive</span></p>
+          <div class="data-section">
+            <h2 class="card-hours">hrs</h2>
+            <p class="previous-state">Previous</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer class="attribution">
+    Coded by <a href="https://www.frontendmentor.io/profile/macdeesh" target="_blank">Macdeesh</a>.
+  </footer>
+  <script type="module" src="./js/index.js"></script>
+</body>
+
+</html>
