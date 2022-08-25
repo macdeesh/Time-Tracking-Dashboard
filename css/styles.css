@@ -78,7 +78,9 @@ h1 {
 .profile-img {
     width: 5rem;
     margin: 1rem 0;
-    border: 3px solid var(--White);
+    outline-style: auto;
+    outline-color: var(--White);
+    outline-width: 3px;
     border-radius: 3.75rem;
 }
 
