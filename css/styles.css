@@ -79,6 +79,7 @@ h1 {
     width: 5rem;
     margin: 1rem 0;
     outline: 3px solid var(--White);
+    transform: translateZ(0);
     border-radius: 60px;
 }
 
